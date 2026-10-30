@@ -1,0 +1,4 @@
+{ "name": "hydradl-backend", "version": "1.0.0", "type": "module", "private": true,
+  "description": "HydraDL local bridge: Node.js API in front of aria2c (Termux)",
+  "scripts": { "start": "node server.js", "init": "node server.js --init" },
+  "engines": { "node": ">=18.17" } }

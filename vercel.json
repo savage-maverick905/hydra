@@ -1,0 +1,3 @@
+{ "outputDirectory": "frontend", "cleanUrls": true,
+  "headers": [ { "source": "/service-worker.js", "headers": [ { "key": "Cache-Control", "value": "no-cache" } ] },
+               { "source": "/(.*)", "headers": [ { "key": "X-Content-Type-Options", "value": "nosniff" }, { "key": "Referrer-Policy", "value": "no-referrer" } ] } ] }
